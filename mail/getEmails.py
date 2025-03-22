@@ -4,7 +4,7 @@ from email.header import decode_header
 from sendApi import SendMail
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
-mail.login("email.ensa@uhp.ac.ma", "ccc")
+mail.login("daniyale.ensa@uhp.ac.ma", "bkgybuiuahdtxahj")
 mail.select("inbox")
 
 #  UNSEEN
